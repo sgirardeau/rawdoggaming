@@ -19,6 +19,18 @@ body {
 .title {
   font-size: 13em;
   font-family: 'Bungee Inline', cursive;
-  -webkit-text-stroke-width: .02em;
+  -webkit-text-stroke-width: .03em;
   -webkit-text-stroke-color: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#faq {
+  background-color:#25a9fe;
+  color:white;
+  margin-top:7em;
+}
+
+ul li {
+  list-style:none;
 }
