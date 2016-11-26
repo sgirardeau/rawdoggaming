@@ -26,6 +26,15 @@ ul li {
 .banner {
   background-color: lightGrey;
 }
+
+.bold {
+  font-weight: bold;
+}
+/* Navbar stles ---------------------------------- */
+.babyBurger {
+  height: 50px;
+  padding-right:2em;
+}
 /* Title Styles ---------------------------------- */
 .title {
   font-size: 9em;
@@ -39,6 +48,10 @@ ul li {
 /* Section Styles -------------------------------- */
 .container {
   margin-bottom: 2em;
+  padding-top: 5em;
+}
+.burgerAlign {
+  padding-top: 2em;
 }
 
 /* Game List Card Styles -------------------------- */
