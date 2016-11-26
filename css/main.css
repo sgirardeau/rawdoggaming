@@ -40,3 +40,12 @@ ul li {
 .container {
   margin-bottom: 2em;
 }
+
+/* Game List Card Styles -------------------------- */
+.gameListCard {
+  padding:3em;
+}
+.gameListCard p {
+  font-size: 1.75em;
+  padding-top: .5em;
+}
