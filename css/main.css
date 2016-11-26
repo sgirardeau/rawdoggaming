@@ -5,3 +5,18 @@ body {
 .container {
   background-color: white;
 }
+
+/*.outlinedText {
+  font-size: 40em;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+*/
+
+.title {
+
+  font-size: 9em;
+  font-family: 'Bungee Inline', cursive;
+  -webkit-text-stroke-width: .02em;
+  -webkit-text-stroke-color: white;
+}
