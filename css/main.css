@@ -3,23 +3,30 @@
 }
 */
 
+/* General Styling ------------------------------- */
 body {
    background-image: url("../img/bg.jpg");
+}
+
+.main-color {
+  background-color:#25a9fe;
+  color:white;
+  border: 5px solid white;
+}
+
+h2 {
+  font-family: 'Bungee Inline', cursive;
+  font-size:4em;
+}
+
+ul li {
+  list-style:none;
 }
 
 .banner {
   background-color: lightGrey;
 }
-
-
-
-/*.outlinedText {
-  font-size: 40em;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
-}
-*/
-
+/* Title Styles ---------------------------------- */
 .title {
   font-size: 9em;
   font-family: 'Bungee Inline', cursive;
@@ -29,12 +36,7 @@ body {
   margin-bottom: 1em;
 }
 
-#faq {
-  background-color:#25a9fe;
-  color:white;
-  margin-top:7em;
-}
-
-ul li {
-  list-style:none;
+/* Section Styles -------------------------------- */
+.container {
+  margin-bottom: 2em;
 }
