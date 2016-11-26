@@ -4,7 +4,11 @@
 */
 
 body {
-  background-image: url("../img/bg.jpg");
+   background-image: url("../img/bg.jpg");
+}
+
+.banner {
+  background-color: lightGrey;
 }
 
 
@@ -17,7 +21,7 @@ body {
 */
 
 .title {
-  font-size: 13em;
+  font-size: 9em;
   font-family: 'Bungee Inline', cursive;
   -webkit-text-stroke-width: .03em;
   -webkit-text-stroke-color: white;
