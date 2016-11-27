@@ -32,8 +32,13 @@ ul li {
 }
 /* Navbar stles ---------------------------------- */
 .babyBurger {
-  height: 50px;
+  height: 3.25em;
   padding-right:2em;
+}
+
+.leftBabyBurger {
+  height: 50px;
+  padding-right: 0em;
 }
 /* Title Styles ---------------------------------- */
 .title {
