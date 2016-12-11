@@ -5,6 +5,10 @@ body {
    cursor: url(http://cur.cursors-4u.net/food/foo-4/foo322.cur), progress;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .section {
   background-color:#25a9fe;
   color:white;
@@ -30,14 +34,8 @@ ul li {
   font-weight: bold;
 }
 /* Navbar stles ---------------------------------- */
-.babyBurger {
-  height: 3.25em;
-  padding-right:2em;
-}
-
-.leftBabyBurger {
-  height: 50px;
-  padding-right: 0em;
+.bg-1 {
+    background-color: #248ed2;
 }
 /* Title Styles ---------------------------------- */
 .title {
@@ -55,7 +53,8 @@ ul li {
   padding-top: 5em;
 }
 .burgerAlign {
-  padding-top: 2em;
+  padding-top: 1.5em;
+  padding-right:1em;
 }
 
 /* Game List Card Styles -------------------------- */
@@ -69,14 +68,14 @@ ul li {
 
 #monster1 {
     position:absolute;
-    left:-4rem;
+    left:-3rem;
     top:170vh;
     z-index:-2;
 }
 
 #monster2 {
     position:absolute;
-    right:-8rem;
+    right:-5rem;
     top:150vh;
     z-index:-2;
 }
