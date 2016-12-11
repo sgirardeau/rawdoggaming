@@ -1,17 +1,16 @@
-/* * {
-  border: 1px dashed white;
-}
-*/
 
 /* General Styling ------------------------------- */
 body {
    background-image: url("../img/bg.jpg");
+   cursor: url(http://cur.cursors-4u.net/food/foo-4/foo322.cur), progress;
 }
 
-.main-color {
+.section {
   background-color:#25a9fe;
   color:white;
   border: 5px solid white;
+  border-radius: 10px;
+  padding-bottom:5rem;
 }
 
 h2 {
@@ -66,4 +65,18 @@ ul li {
 .gameListCard p {
   font-size: 1.75em;
   padding-top: .5em;
+}
+
+#monster1 {
+    position:absolute;
+    left:-4rem;
+    top:170vh;
+    z-index:-2;
+}
+
+#monster2 {
+    position:absolute;
+    right:-8rem;
+    top:150vh;
+    z-index:-2;
 }
